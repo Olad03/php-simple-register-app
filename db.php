@@ -1,5 +1,5 @@
 <?php
-$con = mysqli_connect("localhost", "root", "", "register");
+$con = mysqli_connect("localhost", "root", "mysqldb", "register");
 
 // Initiate DB connection
 if (mysqli_connect_errno()) {
