@@ -1,0 +1,13 @@
+php-simple-register/
+├── app/
+│   ├── db.php
+│   ├── auth.php
+│   ├── csrf.php
+│   ├── register.php
+│   ├── login.php
+│   ├── profile.php
+│   ├── logout.php
+│   └── style.css
+├── Dockerfile
+├── .dockerignore
+└── README.md
