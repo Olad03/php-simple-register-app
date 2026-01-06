@@ -1,11 +1,10 @@
 <?php
-<<<<<<< HEAD
 $con = mysqli_connect("mysql", "mysqldb", "mysqldb", "register");
 
 // Initiate DB connection
 if (mysqli_connect_errno()) {
     echo "Failed to connect to MySQL: " . mysqli_connect_error();
-=======
+
 mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
 
 $con = new mysqli("mysql", "mysqldb", "mysqldb", "register");
