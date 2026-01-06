@@ -12,5 +12,5 @@ $con->set_charset("utf8mb4");
 
 if ($con->connect_error) {
     die("Database connection failed");
->>>>>>> f51407a (Initial commit - PHP Simple Register App v2.0)
+     f51407a (Initial commit - PHP Simple Register App v2.0)
 }
